@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title "MiniFeed"
-Date "2021-01-31"
+Date "2021-02-25"
 Rev "1.0"
 Comp "SG-O"
 Comment1 "©CC BY 4.0"
@@ -683,4 +683,54 @@ Wire Wire Line
 Connection ~ 600  1800
 Wire Wire Line
 	600  1800 600  1300
+Wire Notes Line
+	1850 1750 1850 1850
+Wire Notes Line
+	1850 1850 1750 1850
+Wire Notes Line
+	1750 1850 1750 1750
+Wire Notes Line
+	1750 1750 1850 1750
+Wire Notes Line
+	1750 2850 1850 2850
+Wire Notes Line
+	1850 2850 1850 3050
+Wire Notes Line
+	1850 3050 1750 3050
+Wire Notes Line
+	1750 2850 1750 3050
+Wire Notes Line
+	1750 2550 1850 2550
+Wire Notes Line
+	1850 2550 1850 2650
+Wire Notes Line
+	1850 2650 1750 2650
+Wire Notes Line
+	1750 2650 1750 2550
+Wire Notes Line
+	3750 2150 3850 2150
+Wire Notes Line
+	3850 2150 3850 2250
+Wire Notes Line
+	3850 2250 3750 2250
+Wire Notes Line
+	3750 2250 3750 2150
+Wire Notes Line
+	3750 2450 3850 2450
+Wire Notes Line
+	3850 2550 3750 2550
+Wire Notes Line
+	3850 2750 3750 2750
+Wire Notes Line
+	3850 2450 3850 2750
+Wire Notes Line
+	3750 2450 3750 2750
+Wire Notes Line
+	3750 3150 3850 3150
+Wire Notes Line
+	3850 3150 3850 3250
+Wire Notes Line
+	3850 3250 3750 3250
+Wire Notes Line
+	3750 3250 3750 3150
 $EndSCHEMATC

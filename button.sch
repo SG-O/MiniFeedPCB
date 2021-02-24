@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title "MiniFeed"
-Date "2021-01-17"
+Date "2021-02-25"
 Rev "1.0"
 Comp "SG-O"
 Comment1 "©CC BY 4.0"

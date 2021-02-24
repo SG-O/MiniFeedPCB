@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
 Title "MiniFeed"
-Date "2021-01-17"
+Date "2021-02-25"
 Rev "1.0"
 Comp "SG-O"
 Comment1 "©CC BY 4.0"
@@ -243,4 +243,67 @@ Text HLabel 7700 3300 0    50   Output ~ 0
 RX
 Text HLabel 7700 3100 0    50   Output ~ 0
 SWCLK
+$Comp
+L Connector:Conn_01x03_Female J5
+U 1 1 60249810
+P 6200 2000
+F 0 "J5" H 6228 2026 50  0000 L CNN
+F 1 "PWR_Out" H 6228 1935 50  0000 L CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Left" H 6200 2000 50  0001 C CNN
+F 3 "~" H 6200 2000 50  0001 C CNN
+F 4 "DNP" H 6200 2000 50  0001 C CNN "DNP"
+	1    6200 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1900 5900 1700
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6024A394
+P 5900 1700
+AR Path="/6024A394" Ref="#PWR?"  Part="1" 
+AR Path="/60234D6B/6024A394" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 5900 1550 50  0001 C CNN
+F 1 "+3.3V" H 5915 1873 50  0000 C CNN
+F 2 "" H 5900 1700 50  0001 C CNN
+F 3 "" H 5900 1700 50  0001 C CNN
+	1    5900 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 6024B159
+P 5600 1700
+AR Path="/6024B159" Ref="#PWR?"  Part="1" 
+AR Path="/60234D6B/6024B159" Ref="#PWR045"  Part="1" 
+F 0 "#PWR045" H 5600 1550 50  0001 C CNN
+F 1 "+12V" H 5615 1873 50  0000 C CNN
+F 2 "" H 5600 1700 50  0001 C CNN
+F 3 "" H 5600 1700 50  0001 C CNN
+	1    5600 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1900 5900 1900
+Wire Wire Line
+	6000 2100 5600 2100
+Wire Wire Line
+	5600 1700 5600 2100
+Wire Wire Line
+	6000 2000 5900 2000
+Wire Wire Line
+	5900 2000 5900 2300
+$Comp
+L power:GND #PWR?
+U 1 1 6024F207
+P 5900 2300
+AR Path="/6024F207" Ref="#PWR?"  Part="1" 
+AR Path="/60234D6B/6024F207" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 5900 2050 50  0001 C CNN
+F 1 "GND" H 5905 2127 50  0000 C CNN
+F 2 "" H 5900 2300 50  0001 C CNN
+F 3 "" H 5900 2300 50  0001 C CNN
+	1    5900 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

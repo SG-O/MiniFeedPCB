@@ -1,4 +1,4 @@
-### Module positions - created on 31.01.2021 20:11:35 ###
+### Module positions - created on 25.02.2021 0:27:02 ###
 ### Printed by Pcbnew version kicad (5.1.5)-3
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -40,6 +40,7 @@ Fid4      Fiducial_1mm_Mask2mm  Fiducial_1mm_Mask2mm                            
 Fid5      Fiducial_1mm_Mask2mm  Fiducial_1mm_Mask2mm                                                   97.5000     2.4000    0.0000  top
 J2        Connector_1           PogoTarget_P2.5                                                        89.0000     2.4000  180.0000  top
 J4        Connector_2           PogoTarget_P2.5                                                        80.0000     2.4000  180.0000  top
+J5        PWR_Out               PinSocket_1x03_P1.27mm_Vertical_SMD_Pin1Left                           95.1000     8.1000    0.0000  top
 R1        10k                   R_0603_1608Metric                                                      39.7000     7.4000    0.0000  top
 R2        10k                   R_0603_1608Metric                                                      82.5210     7.5540  270.0000  top
 R3        10k                   R_0603_1608Metric                                                      57.4000     3.8000  270.0000  top
@@ -60,13 +61,13 @@ R17       4k7                   R_0603_1608Metric                               
 R18       4k7                   R_0603_1608Metric                                                       9.1440     5.7150  180.0000  top
 R19       150R                  R_0603_1608Metric                                                      44.9290    33.4620   90.0000  top
 R20       150R                  R_0603_1608Metric                                                      92.5000    23.2000   90.0000  top
-R21       10k                   R_0603_1608Metric                                                      95.4000    22.5000    0.0000  top
+R21       4k7                   R_0603_1608Metric                                                      95.4000    22.5000    0.0000  top
 R22       150R                  R_0603_1608Metric                                                      77.6000    27.4000   90.0000  top
-R23       10k                   R_0603_1608Metric                                                      75.2000    26.0000  180.0000  top
+R23       4k7                   R_0603_1608Metric                                                      75.2000    26.0000  180.0000  top
 R24       150R                  R_0603_1608Metric                                                      77.5680    21.5240    0.0000  top
-R25       10k                   R_0603_1608Metric                                                      84.4260    19.8730  180.0000  top
+R25       4k7                   R_0603_1608Metric                                                      84.4260    19.8730  180.0000  top
 R26       150R                  R_0603_1608Metric                                                      84.4260    21.5240    0.0000  top
-R27       10k                   R_0603_1608Metric                                                      92.5540    20.1270  270.0000  top
+R27       4k7                   R_0603_1608Metric                                                      92.5540    20.1270  270.0000  top
 SW1       SW_-                  SW_SPST_TS-1065A-B3D4                                                  15.7190    29.3345  190.4000  top
 SW2       SW_S                  SW_SPST_TS-1065A-B3D4                                                  23.1104    30.6934  190.4000  top
 SW3       SW_+                  SW_SPST_TS-1065A-B3D4                                                  30.5018    32.0396  190.4000  top
